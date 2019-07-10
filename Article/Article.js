@@ -40,3 +40,36 @@ class Article {
 let articles = document.querySelectorAll('.article').forEach(function(item){
   return new Article(item);
 })
+
+//New Article Components -- STRETCH -- DIDN'T GET IT TO WORK//
+
+// const accordion = document.querySelector('.accordion');
+
+// accordion.classList.add('article');
+// articleData.forEach(event => {
+//   accordion.appendChild(createPanel(title, date, content) {
+//     const article = document.createElement('div'),
+//     const articleTitle = document.createElement('h2'),
+//     const articleDate = document.createElement('p'),
+//     const articleContent = document.createElement('div'),
+//     const expandButton = document.createElement('span'),
+//   }
+//     panel.appendChild(articleTitle),
+//     panel.appendChild(articleDate),
+//     panel.appendChild(articleContent),
+//     panel.appendChild(expandButton),
+  
+//     panel.classList.add('article'),
+//     expandButton.classList.add('expandButton'),
+
+//     expandButton.textContent = 'expand',
+//     articleContent.textContent = content,
+//     articleDate.textContent = date,
+//     articleTitle.textContent = title,
+
+//     expandButton.addEventListener('click', event => {
+//       console.log('button clicked', event.target);
+//       panel.classList.toggle('article-open');
+//     }),
+//     return article;
+//   })
